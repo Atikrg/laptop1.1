@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!---materalize ui css link-1--> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!--materalize ui css link-2 --> <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   
+
+   <!--tailwind ui framework--> <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+      .container{
+          padding: 14px;
+      }
+  </style>
+</head>
+<body>
+    <nav class="navbar-home">
+        <div class="#212121 grey darken-4">
+            &nbsp &nbsp &nbsp
+            <a href="" class="text-xl laptop-brand">LapTop Store</a>
+    
+            <!-- // On destop Screen -->
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html"><i class="fas fa-home"></i> &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp
+                        &nbsp&nbsp
+                        &nbsp &nbsp</a></li>
+                <li><a href="#aboutus">About us &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp</a>
+                </li>
+            </ul>
+    
+            <!-- // On Tablet and Mobile Screen -->
+            <a href="#" data-target="slide-out" class=" right sidenav-trigger show-on-med-and-down"><i
+                    class="material-icons">menu</i></a>
+    
+    
+        </div>
+    
+    
+        <ul id="slide-out" class="sidenav hide-on-large-only ">
+    
+            <li class="m-4 text-lg"><a href="index.html" class="home-link">Home</a>
+            </li>
+            <div class="divider"></div>
+            <li class="m-4 text-lg"><a href="card-student.html">Students laptop</a> </li>
+            <div class="divider"></div>
+            <li class="m-4 text-lg"><a href="card-office.html">Business laptops</a> </li>
+            <div class="divider"></div>
+            <li class="m-4 text-lg"><a href="card-student.html">Gaming laptops</a> </li>
+            <div class="divider"></div>
+            <li class="m-4 text-lg"><a href="#aboutus">About us</a> </li>
+            <div class="divider"></div>
+    
+        </ul>
+    
+    
+    
+    </nav>
+    <div class="container">
+	<div class="row">
+		 <form class="form-horizontal">
+            <fieldset>
+                <!-- Address form -->
+         
+                <h2>Address</h2>
+         
+                <!-- full-name input-->
+                <div class="control-group">
+                    <label class="control-label">Full Name</label>
+                    <div class="controls">
+                        <input id="full-name" name="full-name" type="text" placeholder="full name"
+                        class="input-xlarge">
+                        <p class="help-block"></p>
+                    </div>
+                </div>
+                <!-- address-line1 input-->
+                <div class="control-group">
+                    <label class="control-label">Address Line 1</label>
+                    <div class="controls">
+                        <input id="address-line1" name="address-line1" type="text" placeholder="address line 1"
+                        class="input-xlarge">
+                        <p class="help-block">Street address, P.O. box, company name, c/o</p>
+                    </div>
+                </div>
+                <!-- address-line2 input-->
+                <div class="control-group">
+                    <label class="control-label">Address Line 2</label>
+                    <div class="controls">
+                        <input id="address-line2" name="address-line2" type="text" placeholder="address line 2"
+                        class="input-xlarge">
+                        <p class="help-block">Apartment, suite , unit, building, floor, etc.</p>
+                    </div>
+                </div>
+                <!-- city input-->
+                <div class="control-group">
+                    <label class="control-label">City / Town</label>
+                    <div class="controls">
+                        <input id="city" name="city" type="text" placeholder="city" class="input-xlarge">
+                        <p class="help-block"></p>
+                    </div>
+                </div>
+                <!-- region input-->
+                <div class="control-group">
+                    <label class="control-label">State / Province / Region</label>
+                    <div class="controls">
+                        <input id="region" name="region" type="text" placeholder="state / province / region"
+                        class="input-xlarge">
+                        <p class="help-block"></p>
+                    </div>
+                </div>
+                <!-- postal-code input-->
+                <div class="control-group">
+                    <label class="control-label">Zip / Postal Code</label>
+                    <div class="controls">
+                        <input id="postal-code" name="postal-code" type="text" placeholder="zip or postal code"
+                        class="input-xlarge">
+                        <p class="help-block"></p>
+                    </div>
+                </div>
+                <!-- country select -->
+                <div class="control-group">
+                    <label class="control-label">Country</label>
+                    <div class="controls">
+                        <input id="Country" name="country" type="text" placeholder="country"
+                        class="input-xlarge">
+                        <p class="help-block"></p>
+                    </div>
+                </div>
+            </fieldset>
+            <br>
+            <a href="payments.html" class="btn">Next</a>
+        </form>
+	</div>
+</div>
+
+</body>
+</html>

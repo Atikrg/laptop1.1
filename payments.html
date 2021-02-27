@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+       <!---materalize ui css link-1--> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <!--materalize ui css link-2 --> <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <!--materalize ui font link--> <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--tailwind ui framework--> <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+   <!--fontawesome icons link--> <script src="https://kit.fontawesome.com/da671fb38f.js" crossorigin="anonymous"></script>
+<style>
+    .payments{
+        font-size: 34px;
+    }
+    .frm-text{
+      padding: 26px;
+      margin: 74px;
+    }
+    .proceed-btn{
+      padding: 12px;
+      margin: 12px;
+      margin-right:120px ;
+    }
+    .back-btn{
+      width: 95px;
+    }
+    .g-pay{
+      height: 30px;
+    }
+
+</style>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.collapsible');
+    var options = {};
+    var instances = M.Collapsible.init(elems, options);
+  });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var options = {};
+    var instances = M.Sidenav.init(elems, options);
+  });
+</script>
+
+</head>
+
+
+<body>
+    <nav class="navbar-home">
+      <div class="#212121 grey darken-4">
+        &nbsp &nbsp &nbsp
+        <a href="" class="text-xl laptop-brand">LapTop Store</a>
+    
+        <!-- // On destop Screen -->
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html"><i class="fas fa-home"></i> &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp
+              &nbsp &nbsp</a></li>
+          <li><a href="#aboutus">About us &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp</a></li>
+        </ul>
+    
+        <!-- // On Tablet and Mobile Screen -->
+        <a href="#" data-target="slide-out" class=" right sidenav-trigger show-on-med-and-down"><i
+            class="material-icons">menu</i></a>
+    
+    
+      </div>
+    
+    
+      <ul id="slide-out" class="sidenav hide-on-large-only ">
+    
+        <li class="m-4 text-lg"><a href="index.html" class="home-link">Home</a>
+        </li>
+        <div class="divider"></div>
+        <li class="m-4 text-lg"><a href="card-student.html">Students laptop</a> </li>
+        <div class="divider"></div>
+        <li class="m-4 text-lg"><a href="card-office.html">Business laptops</a> </li>
+        <div class="divider"></div>
+        <li class="m-4 text-lg"><a href="card-student.html">Gaming laptops</a> </li>
+        <div class="divider"></div>
+        <li class="m-4 text-lg"><a href="#aboutus">About us</a> </li>
+        <div class="divider"></div>
+    
+      </ul>
+    
+    
+    
+    </nav>
+j
+<br><br><br>
+
+
+
+
+
+
+
+  
+
+<ul class="collapsible frm-text">
+  <li>
+    <div class="collapsible-header">Credit/Debit/ATM Card &nbsp &nbsp&nbsp <i class="fas fa-credit-card"></i></div>
+    <div class="collapsible-body"><span><input type="number" placeholder="Enter your Card no"></span>
+    <span><input type="number" placeholder="Enter CVV"></span></div>
+  </li>
+  <li>
+    <div class="collapsible-header">Google pay &nbsp&nbsp&nbsp <img src="gh.png" class="g-pay"></div>
+    <div class="collapsible-body"><span><input type="number" placeholder="Enter phone no"></span></div>
+  </li>
+
+</ul>
+
+
+<div class="proceed-back-btn">
+  
+      <a href="address.html" class="btn-small waves-light waves-effect ml-24 back-btn blue">Back</a>
+      <a href="orderPlaced.html" class="btn-small waves-light waves-effect right mr-24 blue">Proceed </a>
+      
+  
+
+
+
+
+</div>
+      
+
+
+
+
+
+    
+<br><br><br><br><br>
+<!-- Credit/Debit/ATM card -->
+    
+
+    <footer class="page-footer #212121 grey darken-4" id="aboutus">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text" style="font-size: 45px;">About us</h5><br><br>
+              <p class="grey-text text-lighten-4">This laptop store is done department of computer science </p> <address>--- Gogate Jogalekar College Students</address> 
+              <br>
+              <div class="divider"></div>
+              <div><br>&nbsp&nbsp 
+              <div class="white-text">
+                <a href=""><p class="white-text"><i class="fas fa-phone-alt"></i>&nbsp &nbsp  Whatsapp no:- +91 &nbsp 9921-8135-24</p>
+      
+                </a>
+              </div>
+               
+      
+              </div>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text" style="font-size: 34px;">Our links</h5><br>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-instagram fa-3x"></i></a></li>
+                <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-twitter fa-3x"></i></a></li>
+                <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-youtube fa-3x"></i></a></li>
+                <li><a class="grey-text text-lighten-3" href="#!"><i class="far fa-envelope-open fa-3x"></i></a></li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2014 Copyright Text
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
